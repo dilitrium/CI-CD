@@ -143,28 +143,19 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   - Разрабатываем второй стейдж ci для развёртывания приложения в кластере k8s новой версии на основании изменения тэга
   То есть у нас тригер будет - тэг.
 
-![Helm-deploy-2](https://github.com/MikhailRyzhkin/CI-CD/assets/69116076/2bb8f713-4330-4f46-acb8-b2d9c285eeec)
+![build-CI](https://github.com/vajierik/CI-CD/assets/150177457/bbe73bc8-cbe4-437a-925a-75f1ea2b2148)
 
-![Helm-deploy-3](https://github.com/MikhailRyzhkin/CI-CD/assets/69116076/eb34faf5-1f3f-43d2-b559-fbc37dff0d29)
+![deploy-CI](https://github.com/vajierik/CI-CD/assets/150177457/c8225330-b89c-43a8-bcae-8e8809b80152)
 
-![Helm-deploy](https://github.com/MikhailRyzhkin/CI-CD/assets/69116076/4b30cc55-2163-41a7-b5df-4c34b01cc7db)
+![deploy-CI-po-A](https://github.com/vajierik/CI-CD/assets/150177457/2aad03ae-7f1f-4d7f-8352-1b05eb10a8c2)
 
-![Helm-deploy-1](https://github.com/MikhailRyzhkin/CI-CD/assets/69116076/f800619a-da0a-4771-9b7e-d54ab7c4bdbb)
+![deploy-CI-web](https://github.com/vajierik/CI-CD/assets/150177457/60b29c51-85c1-44db-8e14-c1ebd99d1506)
 
-![pipeline](https://github.com/MikhailRyzhkin/CI-CD/assets/69116076/30afd39c-881a-4d83-9824-8a226ee37246)
-
-![pipeline-1](https://github.com/MikhailRyzhkin/CI-CD/assets/69116076/6d17715c-d79f-4179-bdfd-66bdfdc1ae47)
-
-Приложение доступно по любому из двух внешних IP (worker или master):
+Приложение доступно по внешним IP-адреса (worker или master):
   ```
-  http://158.160.75.53:30036/
+ http://158.160.17.50:30036/
   ```
 или
   ```
-  http://158.160.18.130:30036/
+  http://158.160.17.37:30036/
   ```
-
-
-
-
-
