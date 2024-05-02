@@ -149,7 +149,8 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
 
 ![deploy-CI-po-A](https://github.com/vajierik/CI-CD/assets/150177457/2aad03ae-7f1f-4d7f-8352-1b05eb10a8c2)
 
-![deploy-CI-web](https://github.com/vajierik/CI-CD/assets/150177457/60b29c51-85c1-44db-8e14-c1ebd99d1506)
+![app](https://github.com/vajierik/CI-CD/assets/150177457/57fbcd2d-b010-49b1-b304-da5d2bfd228e)
+
 
 Приложение доступно по внешним IP-адреса (worker или master):
   ```
