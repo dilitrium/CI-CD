@@ -132,7 +132,7 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   ```
   helm upgrade --install -n diplom --values templates/credentials.yaml --set service.type=NodePort app-diplom .
   ```
-![helm](https://github.com/vajierik/CI-CD/assets/150177457/cddc7a31-47de-4e15-9313-0134e903c0bd)
+![helm](https://github.com/dilitrium/screendiplom/blob/c840a25eb7a38c058ddfe5f41e879717063b71eb/ci/helm-2.png)
 
 Подзадача 3: Описываем стадию деплоя в Helm
   - Архивируем созданный helm-chart из папки выше чарта:
