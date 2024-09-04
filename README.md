@@ -143,20 +143,20 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   - Разрабатываем второй стейдж ci для развёртывания приложения в кластере k8s новой версии на основании изменения тэга
   То есть у нас тригер будет - тэг.
 
-![build-CI](https://github.com/vajierik/CI-CD/assets/150177457/bbe73bc8-cbe4-437a-925a-75f1ea2b2148)
+![build-CI](https://github.com/dilitrium/screendiplom/blob/c840a25eb7a38c058ddfe5f41e879717063b71eb/ci/build-ci.png)
 
-![deploy-CI](https://github.com/vajierik/CI-CD/assets/150177457/c8225330-b89c-43a8-bcae-8e8809b80152)
+![deploy-CI](https://github.com/dilitrium/screendiplom/blob/c840a25eb7a38c058ddfe5f41e879717063b71eb/ci/app-deploy-ci.png)
 
-![deploy-CI-po-A](https://github.com/vajierik/CI-CD/assets/150177457/2aad03ae-7f1f-4d7f-8352-1b05eb10a8c2)
+![deploy-CI-po-A](https://github.com/dilitrium/screendiplom/blob/c840a25eb7a38c058ddfe5f41e879717063b71eb/ci/app-kuber.png)
 
-![app](https://github.com/vajierik/CI-CD/assets/150177457/57fbcd2d-b010-49b1-b304-da5d2bfd228e)
+![app](https://github.com/dilitrium/screendiplom/blob/fd691f8efc27d6097fcd304639ca3b60fe4a4a10/ci/app-kuber-2.png)
 
 
 Приложение доступно по внешним IP-адреса (worker или master):
   ```
- http://158.160.86.191:30036/
+ http://84.201.147.109:30036/
   ```
 или
   ```
-  http://158.160.83.69:30036/
+  http://84.201.151.205:30036/
   ```
