@@ -125,7 +125,7 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   helm create app-diplom
   tree app-diplom
   ```
-![tree](https://github.com/vajierik/CI-CD/assets/150177457/160d4707-3d57-4e9b-a669-8599ffbb9878)
+![tree](https://github.com/dilitrium/screendiplom/blob/1b67269b462b57fd8c5f628a0d7872651691753b/ci/helm-tree.png)
 
   - Редактируем созданную helm-заглушку. В первую очередь манифесты, которые берём с предыдущих шагов
   - Развернём наш Helm chart в кластере k8s. Переходим в папку c чартом и запускаем установку с учетом данных в credentials.yaml:
