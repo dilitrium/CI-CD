@@ -41,26 +41,26 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
 ![test deploy1](https://github.com/dilitrium/screendiplom/blob/5ab6d4adde84a7dca1ea5d9ead123458d47b3734/ci/test%20deploy1.png)
 
 
-![test deploy1_web](https://github.com/vajierik/CI-CD/assets/150177457/db4480d8-2ea4-443d-84c8-1237fc84d5c0)
+![test deploy1_web](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/test%20deploy-web.png)
 
 
 
   - Удаляем тестовое разворачивание приложения в docker:
 
-  ![delete test deploy](https://github.com/vajierik/CI-CD/assets/150177457/2f98bd8e-2d0b-45ac-9ab9-9dcf6a1806e6)
+  ![delete test deploy](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/delete%20test%20deploy.png)
 
   
 
   - В рамках подзадачи в роли Docker registry будем использовать Dockerhub. Логинимся в Dockerhub и создаем репозиторий.
-  - В нашем случае это: otr580/diplom
-![dockerhub_repo](https://github.com/vajierik/CI-CD/assets/150177457/97ceae9b-8fa2-4e57-b8dc-e2e829901027)
+  - В нашем случае это: dilitrium/diplom
+![dockerhub_repo](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/docker-hub.png)
 
   
   - В качестве CI/CD будем использовать Gitlab-CI
-  - Создаём репозиторий в gitlab.com под проект: https://gitlab.com/vajieriy1/diplom.git
-  - Создаём и настраиваем в нём гитлаб-раннер по пути Settings-CI/CD-Runners и отключаем шарэд раннеры
+  - Создаём репозиторий в gitlab.com под проект: https://gitlab.com/dilitrium/diplom.git
+  - Создаём и настраиваем в нём гитлаб-раннер по пути Settings-CI/CD-Runners и отключаем шаред-раннеры
   - Если видим раннер зелёным цветом, значит все нормально
-![create_runner](https://github.com/vajierik/CI-CD/assets/150177457/61c6f44d-1dca-4730-93f2-effa25eba359)
+![create_runner](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/runner.png)
 
 
   - Вносим пользователей в разрешение на docker
@@ -70,7 +70,7 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   usermod -aG docker gitlab-runner
   ```
   - Создаём нужные нам переменные для хранения приватных данных и другой информации по пути Settings-CI/CD-Variables:
-![variables](https://github.com/vajierik/CI-CD/assets/150177457/1e6bf93d-2e55-48f7-92cb-9609624a0c17)
+![variables](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/variables.png)
 
 
   - Описываем pipeline в стандартном .gitlab-ci.yml файле состоящий из двух стадий - сборки приложения из докерфайла и выкатка - деплой приложения. Запускаем пробно pipeline, который собирает
