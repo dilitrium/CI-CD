@@ -38,7 +38,7 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   ```
   Видим удачное тестовое разворачивание:
 
-![test deploy1](https://github.com/vajierik/CI-CD/assets/150177457/7421912b-54fd-4667-98ed-99fd1d6b2cb8)
+![test deploy1](https://github.com/dilitrium/screendiplom/blob/5ab6d4adde84a7dca1ea5d9ead123458d47b3734/ci/test%20deploy1.png)
 
 
 ![test deploy1_web](https://github.com/vajierik/CI-CD/assets/150177457/db4480d8-2ea4-443d-84c8-1237fc84d5c0)
