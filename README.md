@@ -95,7 +95,7 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   ```
   kubectl apply -f . -n diplom 
   ```
-![kube_apply](https://github.com/vajierik/CI-CD/assets/150177457/6e7ae366-7ab8-4ae6-8a9f-9ca3b222240b)
+![kube_apply](https://github.com/dilitrium/screendiplom/blob/22e4735829adfe31fdf808d351c7cfa485390dbe/ci/kubectl-deploy.png)
 
 
   - Проверяем
@@ -104,11 +104,11 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   ```
 
   ```
-  kubectl get po -A
+  kubectl get pod -A
   ```
 
 
-![kubectl_apply](https://github.com/vajierik/CI-CD/assets/150177457/98e1e350-bf8a-400f-87b1-886c42b7b02b)
+![kubectl_apply]()
 
 
 ![app_web](https://github.com/vajierik/CI-CD/assets/150177457/0b6da1cc-1912-433b-acc7-01908e4aaed6)
