@@ -108,10 +108,10 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   ```
 
 
-![kubectl_apply]()
+![kubectl_apply](https://github.com/dilitrium/screendiplom/blob/22e4735829adfe31fdf808d351c7cfa485390dbe/infr/kuber_cluster_status.png)
 
 
-![app_web](https://github.com/vajierik/CI-CD/assets/150177457/0b6da1cc-1912-433b-acc7-01908e4aaed6)
+![app_web](https://github.com/dilitrium/screendiplom/blob/master/ci/app-kuber.png)
 
 
 
