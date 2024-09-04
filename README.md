@@ -75,10 +75,10 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
 
   - Описываем pipeline в стандартном .gitlab-ci.yml файле состоящий из двух стадий - сборки приложения из докерфайла и выкатка - деплой приложения. Запускаем пробно pipeline, который собирает
     проект и пушит его как артефакт в докер хаб. Результат тестовой работы pipeline:
-![build_push_CI](https://github.com/vajierik/CI-CD/assets/150177457/29a20680-2ed4-4738-8c78-a0bcf1c20923)
+![build_push_CI](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/build-ci.png)
 
 
-![dockerhub_repo_push_CI](https://github.com/vajierik/CI-CD/assets/150177457/b5a0600f-a77e-4388-a4fb-bf6047f542e5)
+![dockerhub_repo_push_CI](https://github.com/dilitrium/screendiplom/blob/97e6234e40e0e0be8cd56cd4b037f3302a2df83f/ci/docker-hub.png)
 
 
 
@@ -87,7 +87,7 @@ Jenkins или GitHub Actions — кому что нравится. Рекоме
   ```
   echo -n 'info_to_encode' | base64
   ```
-  - Для приложения создадим отдельный нэймспейс, куда будем его диплоить:
+  - Для приложения создадим отдельный нэймспейс, куда будем его деплоить:
   ```
   kubectl create namespace diplom
   ```
